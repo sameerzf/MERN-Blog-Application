@@ -41,3 +41,47 @@ The **MERN Blog Application** is a full-stack blog application built using the M
 
    ```bash
    git clone https://github.com/username/MERN-Blog-Application.git
+
+   Navigate to the project directory:
+
+bash
+Copy code
+cd MERN-Blog-Application
+Install backend dependencies:
+
+bash
+Copy code
+cd backend
+npm install
+Install frontend dependencies:
+
+bash
+Copy code
+cd ../frontend
+npm install
+Configure Environment Variables:
+
+Create a .env file in the backend directory with the following environment variables:
+
+plaintext
+Copy code
+MONGO_URI=mongodb://localhost:27017/your-database-name
+JWT_SECRET=your_jwt_secret
+PORT=5000
+Adjust these values based on your local or production environment setup.
+
+Run the Application:
+
+Start the backend server:
+
+bash
+Copy code
+cd backend
+npm start
+Start the frontend development server:
+
+bash
+Copy code
+cd ../frontend
+npm start
+The frontend application should be accessible at http://localhost:3000, and the backend server at http://localhost:5000.
