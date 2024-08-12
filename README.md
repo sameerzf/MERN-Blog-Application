@@ -18,8 +18,7 @@ The **MERN Blog Application** is a full-stack blog application built using the M
   - React
   - Axios for HTTP requests
   - React Router for routing
-  - Bootstrap or Material-UI for styling (optional)
-
+ 
 - **Backend:**
   - Node.js
   - Express.js
@@ -33,7 +32,7 @@ The **MERN Blog Application** is a full-stack blog application built using the M
 
 - Node.js (v14.x or higher)
 - npm (Node Package Manager)
-- MongoDB (local or remote instance)
+- MongoDB (Remote instance)
 
 ### Setting Up the Project
 
