@@ -89,6 +89,6 @@ npm run dev
 ```
 
 The frontend application should be accessible at [http://localhost:3000](http://localhost:3000), and the backend server at [http://localhost:5000](http://localhost:5000).
-```
+
 
 
