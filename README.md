@@ -62,7 +62,7 @@ The **MERN Blog Application** is a full-stack blog application built using the M
 
 5. ### Configure Environment Variables:
 
-- Create a `.env` file in the `backend` directory with the following environment variables:
+- Create a `.env` file in the `server` directory with the following environment variables:
 
 ```plaintext
 MONGO_URI=mongodb://localhost:27017/your-database-name
