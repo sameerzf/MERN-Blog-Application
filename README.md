@@ -61,7 +61,7 @@ The **MERN Blog Application** is a full-stack blog application built using the M
    npm install
 
 
-### Configure Environment Variables:
+5. ### Configure Environment Variables:
 
 - Create a `.env` file in the `backend` directory with the following environment variables:
 
@@ -73,24 +73,23 @@ PORT=5000
 
 - Adjust these values based on your local or production environment setup.
 
-### Run the Application:
+6. ### Run the Application:
 
 - Start the Backend Server:
 
 ```bash
-cd backend
-npm start
+cd server
+npm run dev
 ```
 
 - Start the Frontend Development Server:
 
 ```bash
-cd ../frontend
-npm start
+cd ../client
+npm run dev
 ```
 
 The frontend application should be accessible at [http://localhost:3000](http://localhost:3000), and the backend server at [http://localhost:5000](http://localhost:5000).
 ```
 
-You can directly copy and paste this formatted section into your `README.md` file. It clearly outlines the steps for navigating the project directory, installing dependencies, configuring environment variables, and running the application.
 
